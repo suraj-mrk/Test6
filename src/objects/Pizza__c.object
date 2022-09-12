@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Image</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Pizza_Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&apos;/resource/1659952648000/Tostpizza?&apos;, &apos;Problem in loading a image&apos;, 100, 100)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pizza Image</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pizza_Menu__c</fullName>
+        <externalId>false</externalId>
+        <label>Pizza Menu</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Pizza_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Margherita Pizza.</fullName>
+                    <default>false</default>
+                    <label>Margherita Pizza.</label>
+                </value>
+                <value>
+                    <fullName>Golden Corn Pizza.</fullName>
+                    <default>false</default>
+                    <label>Golden Corn Pizza.</label>
+                </value>
+                <value>
+                    <fullName>Jalapeno &amp; Red Paprika Pizza.</fullName>
+                    <default>false</default>
+                    <label>Jalapeno &amp; Red Paprika Pizza.</label>
+                </value>
+                <value>
+                    <fullName>Double Cheese Margherita Pizza.</fullName>
+                    <default>false</default>
+                    <label>Double Cheese Margherita Pizza.</label>
+                </value>
+                <value>
+                    <fullName>Crisp Capsicum &amp; Fresh Tomato Pizza.</fullName>
+                    <default>false</default>
+                    <label>Crisp Capsicum &amp; Fresh Tomato Pizza.</label>
+                </value>
+                <value>
+                    <fullName>Farmhouse Pizza.</fullName>
+                    <default>false</default>
+                    <label>Farmhouse Pizza.</label>
+                </value>
+                <value>
+                    <fullName>Spicy Triple Tango.</fullName>
+                    <default>false</default>
+                    <label>Spicy Triple Tango.</label>
+                </value>
+                <value>
+                    <fullName>Paneer Special Pizza.</fullName>
+                    <default>false</default>
+                    <label>Paneer Special Pizza.</label>
+                </value>
+                <value>
+                    <fullName>Grilled Mushrooms,</fullName>
+                    <default>false</default>
+                    <label>Grilled Mushrooms,</label>
+                </value>
+                <value>
+                    <fullName>Pepper BBQ Chicken,</fullName>
+                    <default>false</default>
+                    <label>Pepper BBQ Chicken,</label>
+                </value>
+                <value>
+                    <fullName>Peri-Peri Chicken,</fullName>
+                    <default>false</default>
+                    <label>Peri-Peri Chicken,</label>
+                </value>
+                <value>
+                    <fullName>Grilled Chicken Rashers</fullName>
+                    <default>false</default>
+                    <label>Grilled Chicken Rashers</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Margherita Pizza.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Golden Corn Pizza.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Jalapeno &amp; Red Paprika Pizza.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Double Cheese Margherita Pizza.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Crisp Capsicum &amp; Fresh Tomato Pizza.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Farmhouse Pizza.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Spicy Triple Tango.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Veg</controllingFieldValue>
+                <valueName>Paneer Special Pizza.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Veg</controllingFieldValue>
+                <valueName>Grilled Mushrooms,</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Veg</controllingFieldValue>
+                <valueName>Pepper BBQ Chicken,</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Veg</controllingFieldValue>
+                <valueName>Peri-Peri Chicken,</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non-Veg</controllingFieldValue>
+                <valueName>Grilled Chicken Rashers</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pizza_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Pizza Size</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Regular</fullName>
+                    <default>false</default>
+                    <label>Regular</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pizza_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Pizza Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Veg</fullName>
+                    <default>false</default>
+                    <label>Veg</label>
+                </value>
+                <value>
+                    <fullName>Non-Veg</fullName>
+                    <default>false</default>
+                    <label>Non-Veg</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Recipe_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Recipe Details</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Pizza</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Pizza  Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Pizzas</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
